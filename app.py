@@ -1,10 +1,11 @@
 import openai
 import streamlit as st
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
-# Set OpenAI API key
-openai.api_key = 'sk-k4NWKoUeq86m6MlUqAFgFhFvx_Nz8zoUCpu2un7eA5T3BlbkFJkkFSNroV1SJ_tD7gUaCJYHgtKBwB1eVw2nGJuaEHkA'  # Replace with your actual OpenAI API key
+load_dotenv()
+os.environ["OPENAI_API_KEY"]=os.getenv("OPENAI_API_KEY")
+
 
 # Function to generate career recommendations
 def generate_career_recommendation(o_level_results, post_secondary_pathway, qualification, qualification_grades, 
