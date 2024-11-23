@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 # Set OpenAI API key
-openai.api_key = 'sk-wjeqAcPs-PDs8eIg8D9cTegI168rgVMtUFGiE9q9WfT3BlbkFJAFM7VxycSGgwh4XMDapY62B4a0_QYH4PtvANBjcIYA'  # Replace with your actual OpenAI API key
+openai.api_key = 'sk-k4NWKoUeq86m6MlUqAFgFhFvx_Nz8zoUCpu2un7eA5T3BlbkFJkkFSNroV1SJ_tD7gUaCJYHgtKBwB1eVw2nGJuaEHkA'  # Replace with your actual OpenAI API key
 
 # Function to generate career recommendations
 def generate_career_recommendation(o_level_results, post_secondary_pathway, qualification, qualification_grades, 
