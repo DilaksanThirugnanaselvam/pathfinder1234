@@ -1,2 +1,5 @@
 streamlit==1.27.2  # Latest version at the time of writing, update if necessary
 openai==0.28.0    # OpenAI Python client library
+python-dotenv==1.0.0
+
+
